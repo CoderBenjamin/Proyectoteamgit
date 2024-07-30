@@ -16,20 +16,64 @@
     background-color: skyblue;
     display: grid;
     grid-column: span 2;
-    text-align:right;
+    align-items:end;
     justify-content: end;
 }
 .cuadro2{
     background-color: blueviolet;
+    grid-row: span 2;
     width: 100%;
     height: 100%;
-    display: grid;
-    grid-row: span 2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
 }
+.circulo{
+    width: 150px;
+    height: 150px;
+    background-color: yellow;
+    margin: 80px 0px 100px 0px;
+    border-radius: 50%;
+}
+.lineas{
+    width: 100%;
+    height: 200px;
+    background-color: gold;
+    border: 1px solid black;
+}
+
 .cuadro3{
     background-color: yellowgreen;
     width: 100%;
     height: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+.cuadro3 > :nth-child(1){
+    background-color: sienna;
+    margin: 40px;
+}
+.cuadro3 > :nth-child(2){
+    background-color: sienna;
+    margin: 40px;
+}
+.cuadro3 > :nth-child(3){
+    background-color: sienna;
+    margin: 40px;
+}
+.cuadro3 > :nth-child(4){
+    background-color: sienna;
+    margin: 40px;
+}
+.cuadro3 > :nth-child(5){
+    background-color: sienna;
+    margin: 40px;
+}
+.cuadro3 > :nth-child(6){
+    background-color: sienna;
+    margin: 40px;
 }
 .cuadro4{
     background-color: tomato;
@@ -40,10 +84,16 @@
     background-color: slategray;
     width: 100%;
     height: 100%;
+    grid: ;
 }
 .cuadro6{
     background-color: brown;
     width: 100%;
     height: 100%;
 }
-.square1
+.linea1,.linea2,.linea3{
+    width: 100%;
+    height: 35%;
+    background-color: yellow;
+    border-bottom: 1px solid black;
+}
