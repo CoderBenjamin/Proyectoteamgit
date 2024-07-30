@@ -1,0 +1,124 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.content{
+    height: 100vh;
+    width: 100vw;
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+}
+.head{
+    display: flex;
+    justify-content: center;
+}
+.cuadros{
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+
+}
+.cuadro{
+    height: 90px;
+    width: 800px;
+    margin: 10px;
+    margin: 10px;
+    display: flex;
+    justify-content: space-between;
+    background-color: blueviolet;   
+}
+.cub1{
+    height: 90px;
+    width: 100px;
+    border: 2px solid black;
+    background-color: #fff;
+}
+.cub2{
+    height: 90px;
+    width: 100px;
+    border: 2px solid black;
+    background-color: #fff;
+}
+.cub3{
+    height: 90px;
+    width: 100px;
+    border: 2px solid black;
+    background-color: #fff;
+}
+.cub4{
+    height: 90px;
+    width: 100px;
+    border: 2px solid black;
+    background-color: #fff;
+}
+.cud1{
+    width: 80px;
+    height: 40px;
+    background-color: #09cbb8;
+    display: flex;
+}
+.cuadp{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    border: 1px solid black;
+}
+.cud2{
+    width: 80px;
+    height: 40px;
+    background-color: #09cbb8;
+    display: flex;
+}
+.cuadp{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    border: 2px solid black;
+}
+.cud3{
+    width: 80px;
+    height: 40px;
+    background-color: #09cbb8;
+    display: flex;
+}
+.cuadp{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    border: 2px solid black;
+}
+.cud4{
+    width: 80px;
+    height: 40px;
+    background-color: #09cbb8;
+    display: flex;
+}
+.cuadp{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    border: 2px solid black;
+}
+.cuadrod{
+    height: 90px;
+    width: 800px;
+    margin: 10px;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+}
+.dere{
+    width: 100px;
+    height: 40px;
+    border: 2px solid black;
+    margin: 10px;
+    display: flex; 
+    justify-content: center;
+    background-color: #09cbb8;
+}
